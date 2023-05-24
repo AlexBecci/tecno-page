@@ -5,15 +5,21 @@ import img from "../assets/img/gta-6.jpg";
 function CardNotice() {
   return (
     <div className="h-full border-2 border-gray-00 border-opacity-60 rounded-lg overflow-hidden">
+      <a href="#">
+
       <img
         className="lg:h-48 md:h-36 w-full object-cover object-center"
         src={img}
         alt="blog"
-      />
+        />
+        </a>
       <div className="p-4">
+        <a href="#">
+
         <h1 className="title-font text-lg font-medium text-gray-900 mb-2">
-          GTA 6: fecha de lanzamiento y todo lo que sabemos hasta ahora
+         GTA 6: fecha de lanzamiento y todo lo que sabemos hasta ahora
         </h1>
+        </a>
         <p className="leading-relaxed mb-2">
           El universo gamer está en ascuas. ¿Por qué? Porque Rockstar Games
           anda…
@@ -27,7 +33,7 @@ function CardNotice() {
                 className="h-full w-full rounded-full overflow-hidden shadow"
               />
             </div>
-            <a className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+            <a href="#" className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
               Becci Alex
             </a>
             <span className="border-l-2 border-gray-200 mx-2"></span>
