@@ -3,6 +3,7 @@ import "./index.css";
 import Nav from "./components/Nav";
 import Header from "./components/Header";
 import Notices from "./components/Notices";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Nav/>
       <Header/>
       <Notices/>
+      <Footer/>
     </body>
   );
 }
